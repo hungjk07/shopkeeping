@@ -23,6 +23,10 @@
 		A4CC33CC16F2091D007EBA52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CC33A716F2091D007EBA52 /* Foundation.framework */; };
 		A4CC33D416F2091D007EBA52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4CC33D216F2091D007EBA52 /* InfoPlist.strings */; };
 		A4CC33D716F2091D007EBA52 /* shopkeepingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CC33D616F2091D007EBA52 /* shopkeepingTests.m */; };
+		A4CC33E216F20953007EBA52 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CC33E116F20953007EBA52 /* Category.m */; };
+		A4CC33E516F20961007EBA52 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CC33E416F20961007EBA52 /* Item.m */; };
+		A4CC33E816F2096F007EBA52 /* SoldItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CC33E716F2096F007EBA52 /* SoldItem.m */; };
+		A4CC33F716F20F12007EBA52 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CC33F616F20F12007EBA52 /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,14 @@
 		A4CC33D316F2091D007EBA52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4CC33D516F2091D007EBA52 /* shopkeepingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shopkeepingTests.h; sourceTree = "<group>"; };
 		A4CC33D616F2091D007EBA52 /* shopkeepingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shopkeepingTests.m; sourceTree = "<group>"; };
+		A4CC33E016F20953007EBA52 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		A4CC33E116F20953007EBA52 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		A4CC33E316F20961007EBA52 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		A4CC33E416F20961007EBA52 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		A4CC33E616F2096F007EBA52 /* SoldItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoldItem.h; sourceTree = "<group>"; };
+		A4CC33E716F2096F007EBA52 /* SoldItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoldItem.m; sourceTree = "<group>"; };
+		A4CC33F516F20F12007EBA52 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		A4CC33F616F20F12007EBA52 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +135,14 @@
 				A4CC33C016F2091D007EBA52 /* ViewController.h */,
 				A4CC33C116F2091D007EBA52 /* ViewController.m */,
 				A4CC33AC16F2091D007EBA52 /* Supporting Files */,
+				A4CC33E016F20953007EBA52 /* Category.h */,
+				A4CC33E116F20953007EBA52 /* Category.m */,
+				A4CC33E316F20961007EBA52 /* Item.h */,
+				A4CC33E416F20961007EBA52 /* Item.m */,
+				A4CC33E616F2096F007EBA52 /* SoldItem.h */,
+				A4CC33E716F2096F007EBA52 /* SoldItem.m */,
+				A4CC33F516F20F12007EBA52 /* DataManager.h */,
+				A4CC33F616F20F12007EBA52 /* DataManager.m */,
 			);
 			path = shopkeeping;
 			sourceTree = "<group>";
@@ -273,6 +293,10 @@
 				A4CC33B216F2091D007EBA52 /* main.m in Sources */,
 				A4CC33B616F2091D007EBA52 /* AppDelegate.m in Sources */,
 				A4CC33C216F2091D007EBA52 /* ViewController.m in Sources */,
+				A4CC33E216F20953007EBA52 /* Category.m in Sources */,
+				A4CC33E516F20961007EBA52 /* Item.m in Sources */,
+				A4CC33E816F2096F007EBA52 /* SoldItem.m in Sources */,
+				A4CC33F716F20F12007EBA52 /* DataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

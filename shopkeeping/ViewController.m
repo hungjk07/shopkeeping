@@ -7,10 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "DataManager.h"
+#import "Category.h"
 
 @interface ViewController ()
-
+{
+    DataManager *dataManager;
+}
 @end
+
 
 @implementation ViewController
 
@@ -26,4 +31,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)addCategory:(id)sender {
+//    Category *category= [[Category alloc] init:@"Test1" withName:@"Test1"];
+    if(dataManager == nil){
+        dataManager = [[DataManager alloc] init];
+    }
+//    [dataManager addCategory:@"Test1" andName:@"Test1"];
+    [dataManager addCategory:@"Test1" :@"Test1"];
+}
+
+- (IBAction)viewAllCategory:(id)sender {
+    if(dataManager != nil){
+        [dataManager viewAllCategory];
+    }
+}
 @end

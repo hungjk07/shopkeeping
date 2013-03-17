@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)addCategory:(id)sender;
 
+- (IBAction)viewAllCategory:(id)sender;
 @end
